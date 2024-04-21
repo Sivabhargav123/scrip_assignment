@@ -1,0 +1,146 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(16, 15, 14);
+   
+}
+.Product-heading {
+    color:rgb(18, 17, 17);
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+align-items: center;
+    text-align:center;
+    margin:20px;
+   
+}
+
+.inner-containers {
+    flex: 1 1 300px; 
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* .product-card {
+    padding: 20px;
+    text-align: center;
+} */
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    h5 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .inner-containers {
+        flex: 1 1 300px; 
+        margin: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        background-color: #fff;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+
+    }
+}
+
+
+.image{
+    height: 150px;
+    width: 200px;
+}
+
+.rating{
+    color:black;
+    font-style: 20px;
+}
+
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: white;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* height:auto; */
+    width:300px;
+    margin:10px;
+    border-radius: 5px;
+}
+
+
+.product-card:hover {
+    background-image: linear-gradient(to top, rgb(78, 227, 19), white); /* Gradient from red to white */
+    transform: translateY(-5px); /* Adjust upward movement as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:white;
+}
+.image {
+    width: 100px; /* Adjust image width as needed */
+    height: 100px; /* Adjust image height as needed */
+    text-align: center;
+}
+
+.card-details {
+    flex: 1;
+}
+
+.card-details h5 {
+    margin-top: 0;
+}
+
+.rating {
+    margin-top: 5px;
+    font-style: italic;
+    color: #171717;
+    font-size:18px;
+    
+}
+.main-container_two{
+  
+        display: flex;
+        flex-direction: row;
+        align-items: center; /* Center-align items horizontally */
+        justify-content: center; /* Center-align items vertically */
+        text-align: center; /* Center-align text */
+     
+      
+}
